@@ -32,7 +32,7 @@
 				    <div class="media-body p-4 d-flex flex-column flex-md-row mx-auto mx-lg-0">
 					    <div class="primary-info">
 						    <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">张博洋</h1>
-						    <div class="title mb-3">测试工程师</div>
+						    <div class="title mb-3">测试开发工程师</div>
 						    <ul class="list-unstyled">
 							    <li class="mb-2"><a href="#"><i class="far fa-envelope fa-fw mr-2" data-fa-transform="grow-3"></i>zhangboy1998@126.com</a></li>
 							    <li><a href="#"><i class="fas fa-mobile-alt fa-fw mr-2" data-fa-transform="grow-6"></i>13488708993</a></li>
@@ -55,26 +55,52 @@
 												<h3 class="resume-position-title font-weight-bold mb-1">测试工程师</h3>
 												<div class="resume-company-name ml-auto">北京保盛航空服务有限公司</div>
 										    </div><!--//row-->
-										    <div class="resume-position-time">2019.1 - 2020.6</div>
+										    <div class="resume-position-time">2019.1 - 2020.2</div>
 									    </div><!--//resume-timeline-item-header-->
 									    <div class="resume-timeline-item-desc">
 										    <p>负责功能测试和部分自动化测试工作。工作期间，通过改善开发及测试流程提高了工作及合作效率。将部分业务通过Selenium实现web自动化及部分业务接口自动化提高了30%左右的测试效率。</p>
 											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Project：保盛机票票务平台</h4>
 										    <p>B2B模式的机票票务平台，是对航司黑屏操作的白屏化抽象，旨在帮助客户提高出票效率</p>
 										    <ul>
-											    <li>根据产品需求和业务流程，提出相关建议及问题。</li>
-											    <li>分析测试范围，快速提取测试范围列表，规划测试方案，编写测试计划和测试用例。</li>
-											    <li>分析编写SQL语句，根据后台数据验证和检查数据的准确性。</li>
-												<li>使用Postman，Charles等抓包工具对传输数据进行分析。</li>
-												<li>针对需求稳定，频繁回归测试的功能场景使用Selenium自动化测试环境编写Java测试脚本。</li>
-												<li>开发初期针对接口使用TestNG，Moco进行接口测试更早进行测试。</li>
-												<li>跟进提交bug，及时沟通解决，直至bug关闭。</li>
+											    <li>根据产品需求制定测试方案，参与项目功能测试，性能测试，专项测试，自动化测试，输出测试报告</li>
+											    <li>使用Python，基于request模块搭建接口自动化框架，使用pytest单元测试框架，通过mark标记灵活管理测试用例</li>
+											    <li>基于Selenium构建web自动化测试，主要进行回归测试</li>
+												<li>使用Fiddler/Charles抓包工具抓取请求响应参数，对请求和响应添加断点，分析订单状态变化</li>
+												<li>测试用户机票操作相关功能需要大量数据，手工生成效率低下，使用Faker编写数据生成工具，节省了大量制造测试数据的时间</li>
+												<li>Jenkins持续集成，基于Jenkins和sonarQube对代码进行扫描和集成，当提交代码时，自动使用sornarQube扫描代码，并将反馈通过邮件发送至相关人员</li>
+												<li>完善测试流程，临近发版日期，经常出现测试点。通过和组员沟通，设置测试时间检查点，产出测试要点报告</li>
+												<li>使用Docker部署测试环境，推动公司DevOps实行</li>
+										    </ul>
+										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
+										    <ul class="list-inline">
+												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Java</span></li>
+												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Python</span></li>
+												<li class="list-inline-item"><span class="badge badge-primary badge-pill">HTML/CSS</span></li>
+												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Selenium</span></li>
+												<li class="list-inline-item"><span class="badge badge-primary badge-pill">JavaScript</span></li>
+												<li class="list-inline-item"><span class="badge badge-primary badge-pill">JMeter</span></li>
+												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Jenkins</span></li>
+												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Docker</span></li>>
+												<li class="list-inline-item"><span class="badge badge-primary badge-pill">MySQL</span></li>
+												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Zentao</span></li>
+												<li class="list-inline-item"><span class="badge badge-primary badge-pill">SVN</span></li>
+												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Linux</span></li>
+											</ul>
+											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Project：差旅服务平台</h4>
+										    <p>差旅服务平台是B2B平台，为企业客户提供差旅报销，酒店预订，车票预订，租车等服务</p>
+										    <ul>
+											    <li>在项目文档缺乏的情况下抽取功能点，编写测试计划，测试用例，进行全模块测试</li>
+											    <li>数据测试，根据每一步预期，校验数据的结构，以及数据准确性等</li>
+											    <li>使用 postman 进行接口功能测试</li>
+												<li>针对需要支持的浏览器，对项目进行兼容性测试</li>
+												<li>将发现的 BUG 提交至禅道，协助开发确认bug，修复bug，直至bug修复确认后关闭</li>
+												<li>测试完成后，根据测试结果发送测试报告</li>
 										    </ul>
 										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
 										    <ul class="list-inline">
 											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Java</span></li>
 											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Selenium</span></li>
-												<li class="list-inline-item"><span class="badge badge-primary badge-pill">JMeter</span></li>
+												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Appium</span></li>
 											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Jenkins</span></li>
 											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">HTML/CSS</span></li>
 												<li class="list-inline-item"><span class="badge badge-primary badge-pill">MySQL</span></li>
@@ -82,15 +108,13 @@
 												<li class="list-inline-item"><span class="badge badge-primary badge-pill">SVN</span></li>
 												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Linux</span></li>
 											</ul>
-											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Project：保盛差旅平台</h4>
-										    <p>该平台主要有购买机票，酒店，汽车，火车，发票等业务，旨在帮助企业客户方便差旅出行，提高流程效率。</p>
+											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Project：PIDShare管理平台</h4>
+										    <p>差旅服务平台是B2B平台，为企业客户提供差旅报销，酒店预订，车票预订，租车等服务</p>
 										    <ul>
-											    <li>分析项目需求文档、原型图、效果图、测试文档 编写测试计划、使用Xmind编写测试用例。</li>
-											    <li>个人主要负责首页模块及子属模块，测试内容包含首页模块搜索功能，分析场景，编写测试用例，执行用例。</li>
-											    <li>进行安装与卸载测试、软件升级测试、权限安全性测试、UI界面测试、交叉测试、网络测试、前后台切换测试、中断测试</li>
-												<li>使用adb指令获取性能数据，利用adb shell dumpsys meminfo获取内存，利用adb shell dumpsys cpuinfo获取CPU消耗。通过adb logcat抓取日志，发现问题后截图保存以待沟通解决。</li>
-												<li>使用Appium模拟其他多种机型，进行兼容性测试。</li>
-												<li>跟进提交bug，及时沟通解决，直至bug关闭。</li>
+											    <li>根据业务需求，编写测试计划，测试用例</li>
+											    <li>执行测试用例，以及使用禅道提交并跟踪缺陷，协助开发修复缺陷</li>
+											    <li>根据接口文档编写接口测试用例，使用 JMeter 进行接口测试，压力测试，输出测试报告</li>
+												<li>控制产品各个模块以及整体的开发进度，以及把控产品质量</li>
 										    </ul>
 										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
 										    <ul class="list-inline">
@@ -122,10 +146,11 @@
 										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Project:发明初审智能审查系统</h4>
 											<p>旨在构建中国国家知识产权局智能化审查体系，实现发明初审、法律手续业务审查从手工纸质到电子自动化的变革</p>
 											<ul>
-											    <li>分析项目需求文档、原型图、效果图、测试文档 编写测试计划、使用Xmind编写测试用例。</li>
-											    <li>参与项目需求评审，完成PCT智能审查系统规则设计。</li>
-												<li>跟进客户反馈的问题，提出优化建议。</li>
+											    <li>分析项目需求文档、原型图、效果图、测试文档 编写测试计划、使用Xmind编写测试用例</li>
+											    <li>独立完成 PCT 智能审查系统规则设计、规则引擎（通过SQL）实现及测试</li>
+												<li>与项目经理、开发工程师、客户进行沟通，收集测试需求，设计，执行测试用例</li>
 												<li>协助开发人员分析bug原因，定位问题，修改直至通过测试</li>
+												<li>负责项目在测试服务器发布</li>
 										    </ul>
 										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
 										    <ul class="list-inline">
@@ -175,6 +200,12 @@
 									        <div class="progress resume-progress">
 											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 											</div>
+										</li>
+										<li class="mb-2">
+								            <div class="resume-skill-name">Python</div>
+									        <div class="progress resume-progress">
+											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
 								        </li>
 								        <li class="mb-2">
 								            <div class="resume-skill-name">SpringBoot</div>
@@ -200,10 +231,12 @@
 						        <div class="resume-skill-item">
 						            <h4 class="resume-skills-cat font-weight-bold">Others</h4>
 						            <ul class="list-inline">
+										<li class="list-inline-item"><span class="badge badge-light">pytest</span></li>
 							            <li class="list-inline-item"><span class="badge badge-light">Jenkins</span></li>
 							            <li class="list-inline-item"><span class="badge badge-light">SQL</span></li>
 							            <li class="list-inline-item"><span class="badge badge-light">Git</span></li>
 										<li class="list-inline-item"><span class="badge badge-light">Jmeter</span></li>
+										<li class="list-inline-item"><span class="badge badge-light">Docker</span></li>
 										<li class="list-inline-item"><span class="badge badge-light">Linux</span></li>
 										<li class="list-inline-item"><span class="badge badge-light">Appium</span></li>
 										<li class="list-inline-item"><span class="badge badge-light">Postman</span></li>
